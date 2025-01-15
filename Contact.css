@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title-name h1{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color:rgba(1, 211, 248, 0.87);
+}
+.title-name a{
+  text-decoration: none;
+}
+.title-name span{
+    color: #000;
+}
+
+.book-name {
+    text-align: right;
+    margin-right: 20px;   
+    margin-top: -88px;
+}
+.book-name .Book-Name{
+  padding-left: 30px;
+  width: 320px;
+}
+
+.book-name input{
+    padding: 10px;
+    padding-left: 38px;
+    width: 650px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.book-name input:focus {
+  border-color: rgba(1, 211, 248, 0.87);
+  outline: none;
+}
+
+.Book-search{
+    margin-right: 672px;
+    margin-top: -27px;
+    margin-bottom: 23px;
+    color: gray;
+}
+
+ul { 
+    list-style-type: none;
+    background-color:black;
+    overflow: hidden;
+  }
+  ul li{
+    float:left;
+    display: flex;
+    padding: 8px;
+    border-left: 1px solid gray;
+  }
+  ul li:last-child{
+    border-left: none;
+  }
+  ul a{
+    padding: 5px 15px;
+    color:white;
+    text-decoration: none;
+  }
+  ul a:hover{
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+  }
+
+  .icons{
+    text-align: right;
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: -54px; 
+    margin-right: 10px;
+  }
+  .icons .fa-heart{
+    color: red;
+  }
+
+
+
+
+  .part-1{
+    background-color: #f0f2f5;
+    border: 1px solid  #f0f2f5;
+    padding: 0px 10px;
+  }
+
+
+  .part-2{
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+  }
+.contact-secton{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.contact-item{
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
+
+}
+.contact-item h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  
+}
+
+.form-item{
+    padding: 10px;
+    width: 75%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+}
+.form-item:focus {
+  border-color: rgba(1, 211, 248, 0.87);
+  outline: none;
+}
+form .submit{
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgba(1, 211, 248, 0.87);
+}
+form .submit:hover{
+  background-color: rgba(5, 171, 201, 0.87);
+}
+
+
+
+
+.map{
+    width: 40%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 350px;
+}
+
+
+
+
+
+
+
+
+/* footer  section */
+footer{
+  background-color:black;
+  padding-top: 80px;
+}
+
+
+.subcribe-section{
+  height: auto;
+  width: 93%;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: #333;
+}  
+.subcribe-Label{
+  font-size: 18px;
+  text-align: center;  
+  padding: 20px;
+  color: white;
+}
+.email-area{
+  display: flex;
+  justify-content: center;
+}
+.subcribe-email,.subcribe-submit{
+  margin-bottom: 20px;   
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #000;
+  color: white;
+}
+.subcribe-email{
+  width: 350px;
+}
+.subcribe-email:focus {
+  border-color: white;
+  outline: none;
+}
+.subcribe-submit{
+  width: 130px;
+  margin-left: 10px; 
+}
+.subcribe-submit:hover{
+  background-color: gray;
+  color: white;
+}
+
+
+.link {
+  padding: 30px 8%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.footer-section {
+  flex:1;
+  min-width: 200px;
+  padding: 15px 0px;
+}
+.footer-section h4 {
+  color: #ddd;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.footer-section .fa-brands, 
+.fa-location-dot, .fa-envelope,
+.fa-phone-flip {
+  color: #ddd;
+  margin: 0 5px;
+}
+.ctg{
+  margin-left: 21px;
+}
+.footer-section p {
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+  
+.footer-section  p a {
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+  transition: color 0.3s;
+}
+  
+.footer-section  p a:hover {
+  color: yellowgreen;
+}
+
+
+/* Footer Bottom Styling */
+.footer-bottom {
+  border-top: 0.1em solid rgb(0, 217, 255);
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 0.8em;
+  color: #ddd;
+} 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design: Adjust layout for smaller screens */
+@media (max-width: 1024px) {
+  .book-name input{ 
+    width: 380px;
+  }
+  .Book-search{
+    margin-right: 402px;
+  }
+  .map{
+    width: 78%;
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 710px) {
+  .book-name input{ 
+    width: 280px;
+  }
+  .Book-search{
+    margin-right: 302px;
+  }
+
+ 
+  .subcribe-email{
+    width: 280px;
+  }
+  .subcribe-submit{
+    width: 100px;
+  }
+}
+  
+@media (max-width: 560px) {
+  .title-name h1{
+    font-size: 26px;
+  }
+
+  
+
+  .book-name {
+    text-align: left;
+    margin-left: 20px;   
+    margin-top: -40px;
+  }    
+  .book-name input{ 
+    width: 83%;
+  }
+ .book-name .Book-search{
+    margin-left: 13px;
+  }
+    
+      
+
+  ul li{
+    padding:8px 4px;      
+  }
+  ul a{
+    padding: 2px;
+  }
+  .icons{
+    font-size: 16px;
+    margin-right: 0px;
+  }
+      
+  .map{
+    width: 85%;
+  }    
+      
+  .subcribe-email,.subcribe-submit{
+    padding: 10px;
+  }
+  .subcribe-email{
+    width: 180px;
+  }
+  .subcribe-submit{
+    width: 80px;
+  }
+}
+   
+@media (max-width: 501px) {
+  .link {
+    padding: 30px 18%;
+  }
+}

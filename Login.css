@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.title-name h1{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color:rgba(1, 211, 248, 0.87);
+}
+.title-name a{
+  text-decoration: none;
+}
+.title-name span{
+    color: #000;
+}
+
+.book-name {
+    text-align: right;
+    margin-right: 25px;   
+    margin-top: -88px;
+}
+
+.book-name .Book-Name{
+    padding: 10px;
+    padding-left: 38px;
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.book-name .Book-Name:focus {
+  border-color: rgba(1, 211, 248, 0.87);
+  outline: none;
+}
+
+.Book-search{
+    margin-right: 672px;
+    margin-top: -27px;
+    margin-bottom: 23px;
+    color: gray;
+}
+
+
+
+
+
+ul { 
+    list-style-type: none;
+    background-color:black;
+    overflow: hidden;
+  }
+  ul li{
+    float:left;
+    display: flex;
+    padding: 8px;
+    border-left: 1px solid gray;
+  }
+  ul li:last-child{
+    border-left: none;
+  }
+  ul a{
+    padding: 5px 15px;
+    color:white;
+    text-decoration: none;
+  }
+  ul a:hover{
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+  }
+
+  .icons{
+    text-align: right;
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: -54px; 
+    margin-right: 10px;
+  }
+  .icons .fa-heart{
+    color: red;
+  }
+
+ 
+
+
+
+
+
+  
+
+
+
+
+
+  .part-1{
+    background-color: #f0f2f5;
+    border: 1px solid  #f0f2f5;
+    padding: 0px 10px;
+  }
+
+  .part-2{
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .part-3 {
+    height: auto;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* box */
+.login {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+}
+.login h5{
+    margin-bottom: 20px;
+}
+
+.fg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fg h4 a{
+    text-decoration: none;
+    float: left;  
+    color: rgba(1, 211, 248, 0.87);
+    border-radius: 5px;
+    border: 1px solid rgba(1, 211, 248, 0.87);
+    padding:  8px;
+    width: 100% ;
+  
+}
+.fg h4 a:hover{
+    background-color:rgba(20, 210, 243, 0.87);
+    color: white;
+}
+
+
+
+
+
+
+
+/* Container for centering the login box */
+.login-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Login Box styling */
+.login-box {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+}
+
+/* Input field container */
+.textbox {
+  margin-bottom: 20px;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.textbox input:focus {
+  border-color: rgba(1, 211, 248, 0.87);
+  outline: none;
+}
+
+/* Checkbox styling */
+.checkbox {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.checkbox input {
+  margin-right: 5px;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button styling */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(1, 211, 248, 0.87);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:rgba(20, 210, 243, 0.87);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  section */
+footer{
+  background-color:black;
+  padding-top: 80px;
+}
+
+
+.subcribe-section{
+  height: auto;
+  width: 93%;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: #333;
+}  
+.subcribe-Label{
+  font-size: 18px;
+  text-align: center;  
+  padding: 20px;
+  color: white;
+}
+.email-area{
+  display: flex;
+  justify-content: center;
+}
+.subcribe-email,.subcribe-submit{
+  margin-bottom: 20px;   
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #000;
+  color: white;
+}
+.subcribe-email{
+  width: 350px;
+}
+.subcribe-email:focus {
+  border-color: white;
+  outline: none;
+}
+.subcribe-submit{
+  width: 130px;
+  margin-left: 10px; 
+}
+.subcribe-submit:hover{
+  background-color: gray;
+  color: white;
+}
+
+
+.link {
+  padding: 30px 8%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.footer-section {
+  flex:1;
+  min-width: 200px;
+  padding: 15px 0px;
+}
+.footer-section h4 {
+  color: #ddd;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.footer-section .fa-brands, 
+.fa-location-dot, .fa-envelope,
+.fa-phone-flip {
+  color: #ddd;
+  margin: 0 5px;
+}
+.ctg{
+  margin-left: 21px;
+}
+.footer-section p {
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+  
+.footer-section  p a {
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+  transition: color 0.3s;
+}
+  
+.footer-section  p a:hover {
+  color: yellowgreen;
+}
+
+
+/* Footer Bottom Styling */
+.footer-bottom {
+  border-top: 0.1em solid rgb(0, 217, 255);
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 0.8em;
+  color: #ddd;
+} 
+
+
+
+
+
+/* Responsive Design: Adjust layout for smaller screens */
+@media (max-width: 1024px) {
+  .book-name .Book-Name{ 
+    width: 430px;
+  }
+  .Book-search{
+    margin-right: 402px;
+  }
+}
+
+@media (max-width: 710px) {
+  .book-name .Book-Name{ 
+    width: 325px;
+  }
+  .book-name .Book-search{
+    margin-right: 297px;
+  }
+
+ 
+  .subcribe-email{
+    width: 280px;
+  }
+  .subcribe-submit{
+    width: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+  
+@media (max-width: 560px) {
+  .title-name h1{
+    font-size: 26px;
+  }
+  .book-name {
+    text-align: left;
+    margin-left: 20px;   
+    margin-top: -40px;
+  }    
+
+
+
+  .book-name .Book-Name{ 
+    width: 100%;
+  }
+ .book-name .Book-search{
+    margin-left: 13px;
+  }
+    
+      
+
+  ul li{
+    padding:8px 4px;      
+  }
+  ul a{
+    padding: 2px;
+  }
+  .icons{
+    font-size: 16px;
+    margin-right: 0px;
+  }
+   
+  
+
+
+
+
+  .part-3{
+    width: 92%;
+  } 
+  .login-box {
+    padding: 20px;
+  }
+  .login-box h1{
+    font-size: 1.5rem;
+  }
+  .textbox input {
+    font-size: 14px;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+
+
+      
+      
+  .subcribe-email,.subcribe-submit{
+    padding: 10px;
+  }
+  .subcribe-email{
+    width: 180px;
+  }
+  .subcribe-submit{
+    width: 80px;
+  }
+}
+
+@media (max-width: 501px) {
+  .link {
+    padding: 30px 18%;
+  }
+}
